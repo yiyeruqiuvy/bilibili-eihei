@@ -1,0 +1,280 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*main*/
+body{
+	margin: 0 auto;
+}
+#wrap{
+	width: 1536px;
+	height: 824px;
+	margin-left: auto;
+    margin-right:auto;
+    margin:0 auto; 
+}
+/*header*/
+#header{
+	position: relative;
+	height: 42px;
+	color: #222;
+	background-color: #fff;
+	
+}
+/*leftNav*/
+.leftNav{
+	top: 0px;
+	left: 180px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	position: absolute;
+	font-size: 13px;
+	
+}
+.leftNav-item a{
+    text-decoration: none;
+    color: #222;
+}
+li.leftNav-item:hover{
+	
+	background-color: rgba(250,250,250,0.4);
+}
+.leftNav-item{
+	display: inline-block;
+	height: 42px;
+	width: 42px;
+	float: left;
+}
+.master{
+	width: 66px;
+}
+.masterRight{
+    display: inline-block;
+    position: absolute;
+    left: 32px;
+    top: 0px;
+}
+.paintingFriends{
+
+}
+.gamecention{
+	width: 66px;
+}
+.live{
+	width: 
+}
+.memberBuy{
+	width: 56px;
+}
+.ambitus{
+
+}
+.mobileTerminal{
+	width: 56px;
+}
+.headerBackground_1{
+	height: 170px;
+	width: 1536px;
+	z-index: 1;
+}
+.headerBackground_2{
+    height: 105px;
+    width: 220px;
+    position: absolute;
+    top: 50px;
+    left: 210px;
+}
+.sign{
+    position: absolute;
+    top: 13px;
+    left: 190px;
+}
+.imgBackground{
+	top: 0px;
+	width: 1536px;
+	height: 42px;
+	background-color: #fff;
+	position: absolute;
+	opacity:0.5;
+}
+/*rightNav*/
+.rightNav{
+	top: 0px;
+	left: 977px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	position: absolute;
+	font-size: 13px;
+	
+}
+.rightNav-item a{
+    text-decoration: none;
+    color: #222;
+}
+li.rightNav-item:hover{
+	
+	background-color: rgba(250,250,250,0.4);
+}
+.rightNav-item{
+	display: inline-block;
+	height: 42px;
+	width: 42px;
+	float: left;
+}
+.bigMember{
+	width: 52px;
+}
+.information{
+	width: 52px;
+}
+.dynamic{
+	width: 52px;
+}
+.lookAfter{
+	width: 66px;
+}
+.favorite{
+	width: 56px;
+}
+.history{
+ 
+}
+.headImg{
+    position: absolute;
+    top: 3px;
+    left: -48px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+/*contribute*/
+.contribute{
+    position: absolute;
+    top: -7px;
+    right: 171px;
+    font-size: 15px;
+    color: #fff;
+    padding: 19px;
+    border-radius: 23%;
+    background-color: #ee5b8c;
+}
+/*search*/
+#search{
+    position: absolute;
+    right: 199px;
+    top: 60px;
+    z-index: 2;
+    float: left;
+    padding: 30px 0;
+}
+.ranking a{
+	text-decoration: none;
+	color: #f38fad;
+}
+.ranking {
+    position: relative;
+    top: 13px;
+    left: 3px;
+    padding: 7px 15px;
+    display: inline-block;
+    background-color: #f3ecea;
+    border-radius: 10%;
+    overflow: hidden;
+}
+.histogramFirst{
+    position: absolute;
+    height: 12px;
+    width: 5px;
+    left: 4px;
+    top: 15px;
+    background-color: #f25d8e;
+    border-radius: 20%;
+}
+.histogramSecond{
+    position: absolute;
+    height: 20px;
+    width: 5px;
+    left: 12px;
+    top: 7px;
+    background-color: #f25d8e;
+    border-radius: 17%;
+}
+.histogramThird{
+    position: absolute;
+    height: 9px;
+    width: 5px;
+    left: 20px;
+    top: 18px;
+    background-color: #f25d8e;
+    border-radius: 20%;
+}
+.rankingcontent{
+	display: inline-block;
+    font-size: 11px;
+    position: relative;
+    left: 12px;
+    top: -1px;
+}
+.searchform{
+	display: inline-block;
+}
+.searchinput{
+	border: ;
+	height: 32px;
+	width: 240px;
+	border: 1px solid #bdc0ce;
+	border-radius: 5px;
+	padding-left: 13px;
+	background-color: #f3ecea;
+}
+.searchbutton{
+	top: 2px;
+    left: -33px;
+	border: none;
+	outline: none;
+	
+	
+}
+/*搜索图标*/
+.icon-search{
+
+width: 18px;height: 18px;
+
+border-radius: 100%;
+
+border:2px solid #0aa4d7;
+
+position: relative;
+
+margin:30px auto;
+
+display: inline-block;
+background: #f3ecea;
+
+}
+
+.icon-search:after{
+
+content: "";
+
+-webkit-transform: rotate(45deg);
+
+-moz-transform: rotate(45deg);
+
+transform: rotate(45deg);
+
+width:8px;
+
+height: 2px;
+
+position: absolute;
+
+top:13px;
+
+left:11px;
+
+background-color: #0aa4d7;
+
+}
