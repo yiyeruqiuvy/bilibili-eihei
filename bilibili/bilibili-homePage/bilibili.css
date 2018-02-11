@@ -240,42 +240,42 @@ li.rightNav-item:hover{
 /*搜索图标*/
 .icon-search{
 
-width: 18px;height: 18px;
+    width: 18px;height: 18px;
 
-border-radius: 100%;
+    border-radius: 100%;
 
-border:2px solid #0aa4d7;
+    border:2px solid #0aa4d7;
 
-position: relative;
+    position: relative;
 
-margin:30px auto;
+    margin:30px auto;
 
-display: inline-block;
-background: #f3ecea;
+    display: inline-block;
+    background: #f3ecea;
 
 }
 
 .icon-search:after{
 
-content: "";
+    content: "";
 
--webkit-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 
--moz-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
 
-transform: rotate(45deg);
+    transform: rotate(45deg);
 
-width:8px;
+    width:8px;
 
-height: 2px;
+    height: 2px;
 
-position: absolute;
+    position: absolute;
 
-top:13px;
+    top:13px;
 
-left:11px;
+    left:11px;
 
-background-color: #0aa4d7;
+    background-color: #0aa4d7;
 
 }
  /*右边垂直的导航verticalNav*/
