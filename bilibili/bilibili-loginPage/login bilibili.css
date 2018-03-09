@@ -142,6 +142,11 @@ li.rightNav-item:hover{
     border-radius: 23%;
     background-color: #ee5b8c;
 }
+.contribute a{
+   color: #fff;
+   text-decoration: none;
+}
+
 /*loginSpan*/
 .loginSpan{
     position: absolute;

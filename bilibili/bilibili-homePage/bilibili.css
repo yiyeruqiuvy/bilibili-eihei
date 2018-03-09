@@ -98,6 +98,200 @@ li.leftNav-item:hover{
 	position: absolute;
 	opacity:0.5;
 }
+/*personalCenter*/
+.personalCenter{
+    position: absolute;
+    z-index: 2;
+    width: 260px;
+    height: 320px;
+    background: #fff;
+    border-radius: 5px;
+    left: 780px;
+    top: 51px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.16);
+    display: none;
+}
+.pCFt p{
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    left: 92px;
+    top: 50px;
+}
+.pCSd{
+    position: relative;
+    top: 71px;
+    left: 10px;
+}
+.pCFtFt img{
+    float: left;
+}
+.pCFtFt p{
+    float: left;
+    left: 5px;
+    position: relative;
+    font-size: 13px;
+}
+.pCFtSd {
+    position: relative;
+    left: 21px;
+}
+.pCFtSd img{
+    float: left;
+}
+.pCFtSd p{
+    float: left;
+    position: relative;
+    left: 5px;
+    font-size: 13px;
+}
+.pCFtTd{
+    float: left;
+    position: relative;
+    left: 100px;
+    top: 1px;
+}
+.pCFtFs{
+    float: left;
+    position: relative;
+    left: 106px;
+    top: -3px;
+}
+.pCTd{
+    position: relative;
+    top: 115px;
+    left: -109px;
+}
+.pCTd p{
+    float: left;
+    font-size: 13px;
+}
+.pCTd span{
+    float: left;
+    left: 16px;
+    top: -2px;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+.pCTdFt{
+    float: left;
+    width: 170px;
+    height: 8px;
+    background: #eee;
+    position: relative;
+    top: -24px;
+    left: 175px;
+}
+.pCTdSd{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: #f3cb85;
+    position: relative;
+    left: 156px;
+    top: -2px;
+}
+.pCTdTd{
+    position: relative;
+    width: 67px;
+    height: 8px;
+    background: #f3cb85;
+    left: 175px;
+    top: -18px;
+}
+.pCTd h1{
+    font-weight: inherit;
+    float: left;
+    font-size: 11px;
+    position: relative;
+    left: 117px;
+    top: -8px;
+}
+.pCFs{
+    position: relative;
+    top: 100px;
+}
+.pCFsUl{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    color: #222;
+}
+.pCFsUl li>a{
+    color: #222;
+}
+.pCFs li{
+    list-style: none;
+    float: left;
+    padding: 1px 20px;
+    font-size: 13px;
+}
+.pCFs a{
+    text-decoration: none;
+}
+.pCFsFt a{
+    position: relative;
+    top: -7px;
+}
+.pCFsSd a{
+    position: relative;
+    top: -3px;
+}
+.pCFsTd{
+    position: relative;
+    top: 11px;
+    left: -115px;
+}
+.pCFsTd a{
+    position: relative;
+    top: -4px;
+}
+.pCFsFs{
+    position: relative;
+    top: -13px;
+    left: 115px;
+}
+.pCFsFs a{
+    position: relative;
+    top: -5px;
+}
+.pCFsFe{
+    position: relative;
+    top: 17px;
+    left: -116px;
+}
+.pCFsFe a{
+    position: relative;
+    top: -5px;
+}
+.pCFe{
+    position: relative;
+    top: 241px;
+    width: 260px;
+    height: 30px;
+    border-radius: 0 0 5px 5px;
+    background: #f4f5f7;
+}
+.pCFe a{
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+    top: 4px;
+    text-decoration: none;
+    color:  #000;
+}
+.pCSx{
+    position: relative;
+    background: #f4f5f7;
+    width: 260px;
+    height: 1px;
+    top: 103px;
+    left: 0;
+}
+.headImg {
+    z-index: 2;
+}
 /*rightNav*/
 .rightNav{
 	top: 0px;
@@ -160,6 +354,11 @@ li.rightNav-item:hover{
     border-radius: 23%;
     background-color: #ee5b8c;
 }
+.contribute a{
+   color: #fff;
+   text-decoration: none;
+}
+
 /*search*/
 #search{
     position: relative;
@@ -285,7 +484,7 @@ li.rightNav-item:hover{
  	width: 50px;
  	top: 250px;
  	right: 132px; 
- 	
+ 	z-index: 2;
  }
  #verticalNav ul{
  	background-color: #f6f9fa;
@@ -688,4 +887,137 @@ span.sI{
     position: absolute;
     display: block;
 }
-
+/*footer*/
+.footer{
+    width: 1546px;
+    height: 333px;
+    background: #f6f9fa;
+    position: absolute;
+    top: 738px;
+    left: 0;
+}
+.footerA li{
+    list-style: none;
+    float: left;
+    padding: 11px 19px;
+    font-size: 15px;
+}
+.footer a{
+    text-decoration: none;
+    color: #222;
+}
+.footerAFt{
+    position: absolute;
+    left: 176px;
+    top: 63px;
+    width: 325px;
+    height: 112px;
+}
+.footerAFt a:hover{
+    color: #00a1d6;
+}
+.footerAFt ul{
+    top: 55px;
+}
+.footerAFtliFt{
+    position: absolute;
+    top: -31px;
+    color: #99a2aa;
+}
+.footerASd{
+    position: absolute;
+    left: 800px;
+    top: 20px;
+}
+.footerASd a:hover{
+    color: #00a1d6;
+}
+.footerATd{
+    position: absolute;
+    left: 1000px;
+    top: 36px;
+}
+.footerATd a:hover{
+    color: #00a1d6;
+}
+.footerASd{
+    position: absolute;
+    left: 570px;
+    top: 63px;
+    width: 325px;
+    height: 112px;
+}
+.footerASd ul{
+    top: 55px;
+}
+.footerASdliFt{
+    position: absolute;
+    top: -31px;
+    color: #99a2aa;
+}
+.footerATd img{
+    width: 60px;
+    height: 60px;
+}
+.footerATd li{
+    padding: 7px 14px;
+}
+.footerATdliFt{
+    display: inline-grid;
+}
+.footerATdliSd{
+    position: relative;
+    display: inline-grid;
+    left: 15px;}
+.footerATdliTd{
+    display: inline-grid;
+    position: relative;
+    left: 37px;
+}
+.footerB{
+    position: absolute;
+    left: 213px;
+    top: 219px;
+}
+.footerB img{
+    position: relative;
+    left: 0;
+    top: 3px;
+}
+.footerBTdliFe img{
+    left: 160px;
+}
+.footerBpFt{
+    width: 942px;
+    position: relative;
+    left: 107px;
+    top: -80px;
+    font-size: 14px;
+    color: #99a2aa;
+}
+.footerB li{
+    list-style: none;
+    float: left;
+    padding: 1px 4px;
+    font-size: 14px;
+}
+.footerBTd{
+    position: relative;
+    left: 103px;
+    top: -83px;
+    width: 900px;
+ 
+}
+.footerBTd a{
+    color: #99a2aa;
+}
+.footerBTd li>a:hover{
+    color: #00a1d6;
+}
+.footerBFs{
+    position: absolute;
+    left: 331px;
+    top: 305px;
+    font-size: 14px;
+    color: #99a2aa;
+}
