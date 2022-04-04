@@ -1,7 +1,7 @@
 # bilibili
 2017-2018 winter vacation homework
 
-##仿写实现了：
+仿写实现了：
 
 ## 主站
 B站主页渲染
